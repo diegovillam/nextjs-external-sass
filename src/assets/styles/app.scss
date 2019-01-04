@@ -1,0 +1,51 @@
+// --------------------------------------------------------------
+// Semantic UI
+$icons-font-path: '/node_modules/semantic-ui-sass/icons';
+$flags-image-path: '/node_modules/semantic-ui-sass/images';
+@import 'semantic-ui';
+
+// --------------------------------------------------------------
+// Colors
+$primary: #38EF7D;
+$secondary: #11998E;
+$highlight: #FF3366;
+$black: #000000;
+$white: #FFFFFF;
+$grey1: #111111;
+$grey2: #222222;
+$grey3: #333333;
+$grey4: #444444;
+$grey5: #666666;
+$grey6: #999999;
+// Grad: #11998E --> 38EF7D / Top-to-down
+
+// --------------------------------------------------------------
+// Typographies
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+    font-size: 0.75em;
+}
+body {
+    font-size: 1em;
+    color: $white;
+}
+a {
+    color: $primary;
+}
+small {
+    font-size: 0.75em;
+}
